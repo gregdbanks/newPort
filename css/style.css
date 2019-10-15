@@ -377,7 +377,7 @@ body.nav-active .nav__list-item:nth-child(10) {
 	font-weight: 600;
 	font-size: 14px;
 	letter-spacing: 1px;
-	line-height: 1;
+	line-height: 2;
 	color: #f27200;
 	text-align: center;
 	margin-top: 15px;
@@ -514,4 +514,12 @@ body.light .switch-wrap p span:nth-child(1):before {
     opacity: 0.8;
     border-radius: 50%;
     box-shadow: 0 0 0 20px rgba(255,255,255,.1);
+}
+
+.intro {
+	max-width: 38em;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 2em;
+	color: #f27200
 }
