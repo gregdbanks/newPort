@@ -364,6 +364,10 @@ body.nav-active .nav__list-item:nth-child(10) {
 	transition: all 500ms linear; 
 	margin: 0 auto;
 	text-align: center;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-content: center;
 
 }
 .switch-wrap img {
