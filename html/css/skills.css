@@ -410,7 +410,7 @@ body.nav-active .nav__list-item:nth-child(10) {
 
 .switch-wrap {
     position: absolute;
-    top: 80%;
+    top: 60%;
     left: 0;
     z-index: 10;
     transform: translateY(-50%);
@@ -611,25 +611,19 @@ body.light .switch-wrap p span:nth-child(1):before {
 
 /* Container for skill bars */
 .container {
-  width: 100%; /* Full width */
+  width: 80%; /* Full width */
   background-color: #1f2029; /* Grey background */
 }
 
 .skills {
   text-align: right; /* Right-align text */
-  padding-top: 10px; /* Add top padding */
-  padding-bottom: 10px; /* Add bottom padding */
-  color: white; /* White text color */
+  padding-top: 20px; /* Add top padding */
+  padding-bottom: 20px; /* Add bottom padding */
+  color: #1f2029; /* White text color */
+  font-weight: 600;
 }
 
 .html {width: 90%; background-color: #f27200;} /* Green */
 .css {width: 80%; background-color: #f27200;} /* Blue */
 .js {width: 65%; background-color: #f27200;} /* Red */
 .php {width: 60%; background-color: #f27200;} /* Dark Grey */
-
-
-
-
-
-
-
