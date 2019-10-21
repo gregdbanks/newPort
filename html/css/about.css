@@ -410,7 +410,7 @@ body.nav-active .nav__list-item:nth-child(10) {
 
 .switch-wrap {
     position: absolute;
-    top: 150%;
+    top: 100%;
     left: 0;
     z-index: 10;
     transform: translateY(-50%);
