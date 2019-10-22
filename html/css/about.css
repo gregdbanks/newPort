@@ -93,7 +93,7 @@ a:hover {
 } */
 
 .full-height {
-    height: 600px;
+    height: 100vh;
 }
 
 /* #Navigation
@@ -408,9 +408,13 @@ body.nav-active .nav__list-item:nth-child(10) {
     transition-delay: 1.7s;
 }
 
+
+
+
+
 .switch-wrap {
     position: absolute;
-    top: 80%;
+    top: 50%;
     left: 0;
     z-index: 10;
     transform: translateY(-50%);
@@ -609,23 +613,9 @@ body.light .switch-wrap p span:nth-child(1):before {
 
 
 
-/* Container for skill bars */
-.container {
-  width: 100%; /* Full width */
-  background-color: #1f2029; /* Grey background */
-}
 
-.skills {
-  text-align: right; /* Right-align text */
-  padding-top: 10px; /* Add top padding */
-  padding-bottom: 10px; /* Add bottom padding */
-  color: white; /* White text color */
-}
 
-.html {width: 90%; background-color: #f27200;} /* Green */
-.css {width: 80%; background-color: #f27200;} /* Blue */
-.js {width: 65%; background-color: #f27200;} /* Red */
-.php {width: 60%; background-color: #f27200;} /* Dark Grey */
+
 
 
 
