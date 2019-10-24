@@ -17,12 +17,26 @@ body {
 }
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6{
-	font-weight:bold;
+	font-weight: bold;
 	font-family: 'Montserrat', sans-serif;
+	color: #f27200;
+}
+
+p { 
+	color: #f27200;
+}
+
+a {
+	color: #884206;
+	text-decoration: none;
 }
 
 img{
 	max-width:100%;
+}
+
+.single-work {
+	padding: 10%
 }
 .parallax{
 	background-size:cover;
