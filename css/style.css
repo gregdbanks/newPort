@@ -214,6 +214,13 @@ a:hover {
 	margin-top: 0;
 	margin-bottom: 0;
 }
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+	.nav__list-item {
+		font-size: 5vh;
+		line-height: 2;
+	}
+}
 .nav__list-item a{ 
 	position: relative;
 	text-decoration: none;
@@ -404,9 +411,17 @@ body.nav-active .nav__list-item:nth-child(10) {
 .switch-wrap p span:nth-child(2):before {
 	opacity: 0;
 }
-.switch-wrap img {
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 
+	.switch-wrap img {
+		width: 120%;		
+	}
+
+	.switch-wrap p {
+		font-size: 34px;
+	}
 }
+
 #switch,
 #circle {
 	cursor: pointer;
