@@ -743,7 +743,7 @@ body.section-show .section.active{
 	display:inline-block;
 	*display:inline;
 	*zoom:1;
-	font-size:14px;
+	font-size:24px;
 	padding:0 26px;
 	position:relative;
 }

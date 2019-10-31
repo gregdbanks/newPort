@@ -414,12 +414,10 @@ body.nav-active .nav__list-item:nth-child(10) {
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 
 	.switch-wrap img {
-		width: 120%;		
+		width: 140%;		
 	}
 
-	.switch-wrap p {
-		font-size: 34px;
-	}
+
 }
 
 #switch,
