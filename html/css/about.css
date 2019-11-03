@@ -27,10 +27,12 @@ a:hover {
 .container {
     border-radius: 5px;
     padding: 20px;
+    margin-bottom: 40px;
 }
 
 form {
     color:#f27200;
+    
 }
 
 .btn {
@@ -111,7 +113,7 @@ form {
 } */
 
 .full-height {
-    height: 100vh;
+    height: 80vh;
 }
 
 /* #Navigation
@@ -440,7 +442,7 @@ body.nav-active .nav__list-item:nth-child(10) {
 
 .switch-wrap {
     position: absolute;
-    top: 64%;
+    top: 60%;
     left: 0;
     z-index: 10;
     transform: translateY(-50%);
@@ -457,11 +459,15 @@ body.nav-active .nav__list-item:nth-child(10) {
 
 }
 
+#about {
+    top: 80%;
+}
+
 
 
 .switch-wrap p {
     font-weight: 600;
-    font-size: 14px;
+    font-size: 10px;
     letter-spacing: 1px;
     line-height: 2;
     color: #f27200;
@@ -512,8 +518,8 @@ body.nav-active .nav__list-item:nth-child(10) {
 }
 
 #switch {
-    width: 60px;
-    height: 8px;
+    width: 30px;
+    height: 6px;
     margin: 0 auto;
     text-align: center;
     border: 2px solid #000;
@@ -540,7 +546,7 @@ body.nav-active .nav__list-item:nth-child(10) {
 }
 
 .switched #circle {
-    left: 43px;
+    left: 16px;
     background: #000;
 }
 

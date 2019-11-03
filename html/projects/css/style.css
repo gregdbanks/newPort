@@ -522,7 +522,7 @@ body.section-show .close-btn{
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 
 	.section-header h2 {
-		font-size: 28px;
+		font-size: 18px;
 		margin-top: 45%;
 	}
 
@@ -735,7 +735,7 @@ body.section-show .section.active{
 }
 #portfolio-filters > ul{
 	margin:0;
-	padding:40px;
+	padding:20px;
 	list-style:none;
 	font-size:0;
 }
@@ -743,7 +743,7 @@ body.section-show .section.active{
 	display:inline-block;
 	*display:inline;
 	*zoom:1;
-	font-size:24px;
+	font-size:10px;
 	padding:0 26px;
 	position:relative;
 }
