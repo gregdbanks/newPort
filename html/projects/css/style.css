@@ -506,7 +506,7 @@ body.section-show .close-btn{
 	font-size:52px;
 	letter-spacing:6px;
 	color:#f27200;
-	margin-top:35%;
+	margin-top:15%;
 	margin-bottom:15%;
 	font-weight:600;
 
@@ -730,7 +730,7 @@ body.section-show .section.active{
 }
 #portfolio-filters{
 	text-align:center;
-	margin-bottom:25px;
+	margin-bottom:15px;
 	font-weight: 400;
 }
 #portfolio-filters > ul{
@@ -746,6 +746,18 @@ body.section-show .section.active{
 	font-size:10px;
 	padding:0 26px;
 	position:relative;
+}
+@media (min-width: 1281px) {
+
+	#portfolio-filters>ul>li {
+		display: inline-block;
+		*display: inline;
+		*zoom: 1;
+		font-size: 30px;
+		padding: 0 26px;
+		position: relative;
+	}
+
 }
 #portfolio-filters > ul > li:last-of-type:after{
 	display:none;
@@ -1116,3 +1128,5 @@ body.light .switch-wrap p span:nth-child(1):before {
 	padding: 40px;
 	font-size: 8vw;
 }
+
+
