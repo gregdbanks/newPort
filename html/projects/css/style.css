@@ -582,7 +582,7 @@ body.section-show .section.active{
 	margin-bottom:45px;
 }
 .portfolio-items > .item{
-	width:33.333%;
+	width:30%;
 	position:relative;
 }
 @media(max-width:992px){
