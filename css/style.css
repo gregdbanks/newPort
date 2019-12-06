@@ -544,7 +544,7 @@ body.light .switch-wrap p span:nth-child(1):before {
 
 
 .fontty {
-	position: fixed;
+	position: relative;
 	width:100%;
 	top:0;
 	left:0;
