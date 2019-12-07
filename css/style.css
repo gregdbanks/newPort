@@ -543,13 +543,20 @@ body.light .switch-wrap p span:nth-child(1):before {
 }
 
 
+
 .fontty {
-	position: relative;
+	position: rela;
 	width:100%;
 	top:0;
 	left:0;
 	z-index:100;
 	text-align: center;
+}
+.fontty a:hover:after {
+	height: 0px;
+	opacity: 1;
+	left: 0;
+	width: 0%;
 }
 
 i.fa {
