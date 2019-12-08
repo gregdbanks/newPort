@@ -1,0 +1,19 @@
+{
+  "name": "newport",
+  "version": "1.0.0",
+  "description": "A Pen created at CodePen.io. You can find this one at https://codepen.io/ig_design/pen/VgaXaY.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gregdbanks/newPort.git"
+  },
+  "author": "Greg Banks",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gregdbanks/newPort/issues"
+  },
+  "homepage": "https://github.com/gregdbanks/newPort#readme"
+}
